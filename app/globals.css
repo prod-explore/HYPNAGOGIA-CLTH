@@ -70,13 +70,12 @@ body {
   background-color: var(--black);
   line-height: 1.6;
   overflow-x: hidden;
-  cursor: none;
 }
 
-/* Show default cursor on touch devices */
-@media (pointer: coarse) {
-  body {
-    cursor: auto;
+/* ── Hide system cursor on non-touch devices globally ── */
+@media (pointer: fine) {
+  *, *::before, *::after {
+    cursor: none !important;
   }
 }
 

@@ -3,8 +3,6 @@ import { useEffect, useRef } from 'react';
 
 export default function CustomCursor() {
   const cursorRef = useRef(null);
-  const pos = useRef({ x: 0, y: 0 });
-  const target = useRef({ x: 0, y: 0 });
 
   useEffect(() => {
     // Disable on touch devices
@@ -14,31 +12,40 @@ export default function CustomCursor() {
     if (!cursor) return;
 
     const onMove = (e) => {
-      target.current = { x: e.clientX, y: e.clientY };
+      // Instant movement (no delay/lerping)
+      cursor.style.transform = `translate(${e.clientX - 24}px, ${e.clientY - 24}px)`;
+      // Make sure it's visible when moving inside
+      if (cursor.style.opacity === '0') {
+        cursor.style.opacity = '1';
+      }
     };
 
-    const animate = () => {
-      pos.current.x += (target.current.x - pos.current.x) * 0.12;
-      pos.current.y += (target.current.y - pos.current.y) * 0.12;
-      cursor.style.transform = `translate(${pos.current.x - 24}px, ${pos.current.y - 24}px)`;
-      requestAnimationFrame(animate);
+    const onLeave = () => {
+      cursor.style.opacity = '0';
+    };
+
+    const onEnter = () => {
+      cursor.style.opacity = '1';
     };
 
     window.addEventListener('mousemove', onMove);
-    const raf = requestAnimationFrame(animate);
+    document.addEventListener('mouseleave', onLeave);
+    document.addEventListener('mouseenter', onEnter);
 
     return () => {
       window.removeEventListener('mousemove', onMove);
-      cancelAnimationFrame(raf);
+      document.removeEventListener('mouseleave', onLeave);
+      document.removeEventListener('mouseenter', onEnter);
     };
   }, []);
 
-  // Don't render on server
   return (
     <div ref={cursorRef} style={{
       position: 'fixed', top: 0, left: 0, width: 48, height: 48,
       pointerEvents: 'none', zIndex: 'var(--z-cursor)',
       mixBlendMode: 'difference',
+      opacity: 0, // Hidden initially until first movement
+      transition: 'opacity 0.2s ease-out', // Smooth fade when entering/leaving window
     }}>
       <video
         src="/media/hypnagogia-cursor.webm"
