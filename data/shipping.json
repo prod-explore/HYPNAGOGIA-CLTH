@@ -1,0 +1,23 @@
+{
+  "methods": [
+    {
+      "id": "inpost-paczkomat",
+      "name": "InPost Paczkomat",
+      "description": "Delivery to InPost parcel locker",
+      "price": { "PLN": 12.99, "EUR": 3.00, "USD": 3.50 },
+      "estimatedDays": "2-3"
+    },
+    {
+      "id": "inpost-courier",
+      "name": "InPost Kurier",
+      "description": "Courier delivery to your address",
+      "price": { "PLN": 18.99, "EUR": 4.50, "USD": 5.00 },
+      "estimatedDays": "1-2"
+    }
+  ],
+  "freeShippingThreshold": {
+    "PLN": 300,
+    "EUR": 70,
+    "USD": 75
+  }
+}

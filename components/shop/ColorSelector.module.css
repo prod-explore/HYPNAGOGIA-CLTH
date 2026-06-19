@@ -1,0 +1,6 @@
+.wrap { margin-bottom: 24px; }
+.label { display: block; font-family: var(--font-heading); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-secondary); margin-bottom: 12px; }
+.colors { display: flex; gap: 10px; }
+.swatch { width: 32px; height: 32px; border-radius: 50%; border: 2px solid transparent; cursor: pointer; transition: border-color var(--duration-fast); }
+.swatch:hover { border-color: var(--text-secondary); }
+.active { border-color: var(--white); box-shadow: 0 0 0 2px var(--black), 0 0 0 4px var(--white); }

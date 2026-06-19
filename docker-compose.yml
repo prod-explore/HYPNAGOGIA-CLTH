@@ -1,0 +1,15 @@
+services:
+  hypnagogia:
+    build: .
+    container_name: hypnagogia
+    restart: unless-stopped
+    expose:
+      - "3000"
+    env_file:
+      - .env
+    networks:
+      - hypnagogia-clth-network
+
+networks:
+  hypnagogia-clth-network:
+    external: true

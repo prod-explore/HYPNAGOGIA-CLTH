@@ -1,0 +1,6 @@
+.wrap { margin-bottom: 24px; }
+.label { display: block; font-family: var(--font-heading); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-secondary); margin-bottom: 12px; }
+.sizes { display: flex; gap: 8px; flex-wrap: wrap; }
+.size { width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; font-family: var(--font-heading); font-size: 0.75rem; font-weight: 500; border: 1px solid var(--border-prominent); background: transparent; color: var(--text-primary); transition: all var(--duration-fast) var(--ease-out); cursor: pointer; }
+.size:hover { border-color: var(--white); }
+.active { background: var(--white); color: var(--black); border-color: var(--white); }

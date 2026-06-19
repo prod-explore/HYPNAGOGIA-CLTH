@@ -1,0 +1,81 @@
+.menu {
+  position: fixed;
+  inset: 0;
+  background: var(--black);
+  z-index: var(--z-overlay);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 var(--container-padding);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--duration-slow) var(--ease-out),
+              visibility var(--duration-slow) var(--ease-out);
+}
+
+.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.link {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 8vw, 4rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity var(--duration-normal) var(--ease-out),
+              transform var(--duration-normal) var(--ease-out),
+              color var(--duration-fast) var(--ease-out);
+}
+
+.open .link {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.link:hover {
+  color: var(--text-secondary);
+}
+
+.footer {
+  position: absolute;
+  bottom: 40px;
+  left: var(--container-padding);
+  right: var(--container-padding);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.socials {
+  display: flex;
+  gap: 24px;
+}
+
+.socials a {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.socials a:hover {
+  color: var(--white);
+}
+
+.email {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}

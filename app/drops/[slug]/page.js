@@ -1,0 +1,27 @@
+import { getDropBySlug, getAllDrops, getAllSlugs } from '@/lib/products';
+import { notFound } from 'next/navigation';
+import DropPageClient from './DropPageClient';
+
+export async function generateStaticParams() {
+  return getAllSlugs().map(slug => ({ slug }));
+}
+
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const drop = getDropBySlug(slug);
+  if (!drop) return { title: 'Not Found — HYPNAGOGIA' };
+  return {
+    title: `${drop.name} — HYPNAGOGIA`,
+    description: drop.description,
+  };
+}
+
+export default async function DropPage({ params }) {
+  const { slug } = await params;
+  const drop = getDropBySlug(slug);
+  if (!drop) notFound();
+
+  const otherDrops = getAllDrops().filter(d => d.id !== drop.id);
+
+  return <DropPageClient drop={drop} otherDrops={otherDrops} />;
+}

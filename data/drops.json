@@ -1,0 +1,126 @@
+[
+  {
+    "id": "drop-001",
+    "slug": "drop-001-placeholder",
+    "name": "[DROP NAME]",
+    "tagline": "[SHORT TAGLINE FOR THIS PIECE]",
+    "description": "[FULL PRODUCT DESCRIPTION — materials, fit, weight, inspiration. Tell the story of this garment.]",
+    "story": "[THE STORY BEHIND THIS DROP — What inspired it? What does it represent? What was the creative process?]",
+    "price": {
+      "PLN": 299.00,
+      "EUR": 69.00,
+      "USD": 75.00
+    },
+    "status": "preorder",
+    "preorderDeadline": "2026-08-01T23:59:59Z",
+    "estimatedShipDate": "2026-09-15",
+    "category": "[CATEGORY — e.g. heavyweight-tee, hoodie, jacket, pants, accessory]",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {
+        "name": "[COLOR NAME]",
+        "hex": "#000000",
+        "images": ["hero.jpg", "gallery-1.jpg", "gallery-2.jpg", "gallery-3.jpg"]
+      }
+    ],
+    "media": {
+      "heroVideo": "/media/drops/drop-001/hero.mp4",
+      "heroPoster": "/media/drops/drop-001/hero-poster.jpg",
+      "gallery": [
+        "/media/drops/drop-001/gallery-1.jpg",
+        "/media/drops/drop-001/gallery-2.jpg",
+        "/media/drops/drop-001/gallery-3.jpg"
+      ],
+      "behindTheScenes": [
+        "/media/drops/drop-001/bts-1.jpg"
+      ]
+    },
+    "sizeGuide": {
+      "S":  { "chest": "?", "length": "?", "sleeve": "?" },
+      "M":  { "chest": "?", "length": "?", "sleeve": "?" },
+      "L":  { "chest": "?", "length": "?", "sleeve": "?" },
+      "XL": { "chest": "?", "length": "?", "sleeve": "?" },
+      "XXL": { "chest": "?", "length": "?", "sleeve": "?" }
+    },
+    "featured": true
+  },
+  {
+    "id": "drop-002",
+    "slug": "drop-002-placeholder",
+    "name": "[DROP NAME]",
+    "tagline": "[SHORT TAGLINE]",
+    "description": "[FULL PRODUCT DESCRIPTION]",
+    "story": "[THE STORY BEHIND THIS DROP]",
+    "price": {
+      "PLN": 399.00,
+      "EUR": 92.00,
+      "USD": 99.00
+    },
+    "status": "coming",
+    "preorderDeadline": null,
+    "estimatedShipDate": null,
+    "category": "[CATEGORY]",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": [
+      {
+        "name": "[COLOR NAME]",
+        "hex": "#ffffff",
+        "images": ["hero.jpg", "gallery-1.jpg"]
+      }
+    ],
+    "media": {
+      "heroVideo": null,
+      "heroPoster": "/media/drops/drop-002/hero-poster.jpg",
+      "gallery": [
+        "/media/drops/drop-002/gallery-1.jpg"
+      ],
+      "behindTheScenes": []
+    },
+    "sizeGuide": {
+      "S":  { "chest": "?", "length": "?", "sleeve": "?" },
+      "M":  { "chest": "?", "length": "?", "sleeve": "?" },
+      "L":  { "chest": "?", "length": "?", "sleeve": "?" },
+      "XL": { "chest": "?", "length": "?", "sleeve": "?" }
+    },
+    "featured": false
+  },
+  {
+    "id": "drop-003",
+    "slug": "drop-003-placeholder",
+    "name": "[DROP NAME]",
+    "tagline": "[SHORT TAGLINE]",
+    "description": "[FULL PRODUCT DESCRIPTION]",
+    "story": "[THE STORY BEHIND THIS DROP]",
+    "price": {
+      "PLN": 249.00,
+      "EUR": 58.00,
+      "USD": 62.00
+    },
+    "status": "soldout",
+    "preorderDeadline": null,
+    "estimatedShipDate": null,
+    "category": "[CATEGORY]",
+    "sizes": ["M", "L", "XL"],
+    "colors": [
+      {
+        "name": "[COLOR NAME]",
+        "hex": "#1a1a1a",
+        "images": ["hero.jpg"]
+      }
+    ],
+    "media": {
+      "heroVideo": null,
+      "heroPoster": "/media/drops/drop-003/hero-poster.jpg",
+      "gallery": [
+        "/media/drops/drop-003/gallery-1.jpg"
+      ],
+      "behindTheScenes": []
+    },
+    "sizeGuide": {
+      "M":  { "chest": "?", "length": "?", "sleeve": "?" },
+      "L":  { "chest": "?", "length": "?", "sleeve": "?" },
+      "XL": { "chest": "?", "length": "?", "sleeve": "?" }
+    },
+    "featured": false
+  }
+]

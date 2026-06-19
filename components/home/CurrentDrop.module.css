@@ -1,0 +1,14 @@
+.hero { position: relative; min-height: 100vh; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.bg { position: absolute; inset: 0; }
+.bgMedia { width: 100%; height: 100%; object-fit: cover; }
+.bgPlaceholder { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--black-elevated); gap: 8px; color: var(--text-muted); font-family: var(--font-heading); font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; }
+.overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.5) 60%, rgba(0,0,0,0.9) 100%); }
+.content { position: relative; z-index: 2; text-align: center; padding: 0 var(--container-padding); display: flex; flex-direction: column; align-items: center; gap: 20px; }
+.title { font-size: clamp(3rem, 12vw, 12rem); font-weight: 700; line-height: 0.9; letter-spacing: -0.04em; text-transform: uppercase; }
+.tagline { font-size: 1rem; color: var(--text-secondary); max-width: 500px; }
+.actions { display: flex; align-items: center; gap: 24px; margin-top: 8px; }
+.price { font-family: var(--font-heading); font-size: 1.1rem; font-weight: 500; color: var(--text-secondary); }
+.scrollDown { position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 8px; z-index: 2; }
+.scrollText { font-size: 0.6rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--text-muted); }
+.scrollLine { width: 1px; height: 40px; background: var(--text-muted); animation: scrollPulse 2s ease-in-out infinite; }
+@keyframes scrollPulse { 0%, 100% { opacity: 0.3; transform: scaleY(0.5); } 50% { opacity: 1; transform: scaleY(1); } }
