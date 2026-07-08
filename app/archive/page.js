@@ -7,8 +7,8 @@ export const metadata = {
   description: 'Browse all drops from HYPNAGOGIA. Limited edition experimental clothing.',
 };
 
-export default function ArchivePage() {
-  const drops = getAllDrops();
+export default async function ArchivePage() {
+  const drops = await getAllDrops();
 
   return (
     <div style={{ paddingTop: 'calc(var(--header-height) + 40px)' }}>

@@ -9,7 +9,28 @@ services:
       - .env
     networks:
       - hypnagogia-clth-network
+    depends_on:
+      - db
+
+  db:
+    image: postgres:15-alpine
+    container_name: hypnagogia_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
+      POSTGRES_DB: ${DB_NAME:-hypnagogia}
+    ports:
+      - "5432:5432"
+    volumes:
+      - hypnagogia_pgdata:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - hypnagogia-clth-network
 
 networks:
   hypnagogia-clth-network:
     external: true
+
+volumes:
+  hypnagogia_pgdata:

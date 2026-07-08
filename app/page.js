@@ -4,9 +4,10 @@ import Marquee from '@/components/home/Marquee';
 import ArchiveGrid from '@/components/home/ArchiveGrid';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
-export default function Home() {
-  const featured = getFeaturedDrop();
-  const allDrops = getAllDrops();
+export default async function Home() {
+  const featured = await getFeaturedDrop();
+  const allDrops = await getAllDrops();
+  const availableDrops = allDrops.filter(d => d.status === 'preorder' || d.status === 'available');
 
   return (
     <>
