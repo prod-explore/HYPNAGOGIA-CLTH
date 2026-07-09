@@ -21,8 +21,6 @@ export default function CurrentDrop({ drop }) {
           <img src={drop.media.heroPoster} alt={drop.name} className={styles.bgMedia} />
         ) : (
           <div className={styles.bgPlaceholder}>
-            <p>[HERO VIDEO / IMAGE PLACEHOLDER]</p>
-            <p className="caption">Place your media at: /media/drops/{drop.slug}/hero.mp4</p>
           </div>
         )}
         <div className={styles.overlay} />

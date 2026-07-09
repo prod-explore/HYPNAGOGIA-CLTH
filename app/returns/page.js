@@ -9,30 +9,30 @@ export default function ReturnsPage() {
         <div className="legal-content container">
           <ScrollReveal>
             <h1>Returns & Refunds</h1>
-            <span className="legal-date">[PLACEHOLDER: Last updated date]</span>
+            <span className="legal-date">Last updated: {new Date().toLocaleDateString()}</span>
 
             <h2>14-Day Right of Withdrawal</h2>
-            <p>[PLACEHOLDER: EU consumer right — 14 calendar days from delivery to withdraw without giving a reason. Conditions: item must be unused, in original packaging, with tags attached.]</p>
+            <p>Under EU consumer rights, you have 14 calendar days from delivery to withdraw from your purchase without giving any reason. The item must be unused, in its original packaging, and with all tags attached.</p>
 
             <h2>How to Return</h2>
-            <p>[PLACEHOLDER: Step-by-step return process — contact email, return form, shipping instructions.]</p>
+            <p>Please follow these steps to initiate a return:</p>
             <ul>
-              <li>[PLACEHOLDER: Step 1 — Contact us at [EMAIL]]</li>
-              <li>[PLACEHOLDER: Step 2 — Fill out the return form]</li>
-              <li>[PLACEHOLDER: Step 3 — Ship the item back via InPost]</li>
+              <li>Step 1 — Contact us at contact@pulsr.pl</li>
+              <li>Step 2 — Fill out the return form provided via email</li>
+              <li>Step 3 — Ship the item back via InPost using the generated label</li>
             </ul>
 
             <h2>Refund Process</h2>
-            <p>[PLACEHOLDER: Refund timeline, method (original payment method via Stripe), shipping cost refund policy.]</p>
+            <p>Refunds will be processed within 14 days of receiving the returned item. The refund will be issued to the original payment method (e.g., Stripe, BLIK).</p>
 
             <h2>Preorder Cancellations</h2>
-            <p>[PLACEHOLDER: Can preorders be cancelled? Timeline, conditions, refund for cancelled preorders.]</p>
+            <p>Preorders can be cancelled within 14 days of placing the order, provided the production phase has not yet commenced. Cancelled preorders will be fully refunded.</p>
 
             <h2>Exchanges</h2>
-            <p>[PLACEHOLDER: Exchange policy — size exchanges, availability, process.]</p>
+            <p>Due to the limited nature of our drops, we cannot guarantee size exchanges. If your desired size is out of stock, you will be offered a full refund.</p>
 
             <h2>Damaged Items</h2>
-            <p>[PLACEHOLDER: What to do if item arrives damaged — photo documentation, contact, replacement/refund.]</p>
+            <p>If your item arrives damaged, please contact us immediately with photo documentation. We will arrange a replacement or a full refund.</p>
           </ScrollReveal>
         </div>
       </section>

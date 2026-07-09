@@ -9,7 +9,7 @@ export default function SizeGuidePage() {
         <div className="container container--narrow">
           <ScrollReveal>
             <h1 className="display-medium mb-16">Size Guide</h1>
-            <p className="text-secondary mb-48">[PLACEHOLDER: All measurements in centimeters. Measured flat.]</p>
+            <p className="text-secondary mb-48">All measurements in centimeters. Measured flat.</p>
           </ScrollReveal>
           <ScrollReveal delay={0.1}>
             <div style={{ overflowX: 'auto' }}>
@@ -37,7 +37,7 @@ export default function SizeGuidePage() {
           </ScrollReveal>
           <ScrollReveal delay={0.2}>
             <p className="text-secondary body-small" style={{ marginTop: 32 }}>
-              [PLACEHOLDER: Additional sizing notes — fit type (oversized/regular), model measurements, how to measure yourself.]
+              Our garments typically feature a boxy, slightly oversized fit. If you prefer a standard fit, consider sizing down.
             </p>
           </ScrollReveal>
         </div>

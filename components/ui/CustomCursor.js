@@ -43,7 +43,6 @@ export default function CustomCursor() {
     <div ref={cursorRef} style={{
       position: 'fixed', top: 0, left: 0, width: 48, height: 48,
       pointerEvents: 'none', zIndex: 'var(--z-cursor)',
-      mixBlendMode: 'difference',
       opacity: 0, // Hidden initially until first movement
       transition: 'opacity 0.2s ease-out', // Smooth fade when entering/leaving window
     }}>

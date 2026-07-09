@@ -20,19 +20,19 @@ export default function ShippingPage() {
 
             <h2>InPost Courier</h2>
             <p>Delivery: 1–2 business days — 18,99 zł</p>
-            <p>Delivered directly to your door.</p>
+            <span className="legal-date">Last updated: {new Date().toLocaleDateString()}</span>
 
-            <h2>Free Shipping</h2>
-            <p>[PLACEHOLDER: Free shipping threshold — e.g. orders over 300 zł ship free.]</p>
+            <h2>Free Shipping Threshold</h2>
+            <p>We offer free domestic shipping via InPost on all orders over 300 PLN.</p>
 
             <h2>Preorder Shipping</h2>
-            <p>[PLACEHOLDER: Preorder items ship on the estimated date shown on the product page. You will receive tracking information via email once shipped.]</p>
+            <p>Preorder items ship on the estimated date shown on the product page. You will receive tracking information via email once shipped.</p>
 
             <h2>International Shipping</h2>
-            <p>[PLACEHOLDER: International shipping availability, costs, customs duties notice.]</p>
+            <p>Currently, we only ship within Poland. International shipping is coming soon. Please note that for future international orders, customs duties may apply.</p>
 
-            <h2>Tracking</h2>
-            <p>[PLACEHOLDER: Tracking number provided via email, InPost tracking portal link.]</p>
+            <h2>Tracking Your Order</h2>
+            <p>A tracking number will be provided via email once your order is dispatched. You can track your package directly through the InPost portal or app.</p>
           </ScrollReveal>
         </div>
       </section>

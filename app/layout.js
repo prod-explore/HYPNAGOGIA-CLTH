@@ -6,12 +6,12 @@ import CustomCursor from '@/components/ui/CustomCursor';
 
 export const metadata = {
   title: 'PULSR — Experimental Clothing',
-  description: '[PLACEHOLDER: Brand description for SEO — Experimental clothing brand. Limited drops. Art you wear.]',
+  description: 'Experimental clothing brand. Limited drops. Art you wear.',
   keywords: ['clothing', 'fashion', 'streetwear', 'drops', 'preorder', 'PULSR'],
   openGraph: {
-    title: 'PULSR',
-    description: '[PLACEHOLDER: OG description]',
-    url: 'https://explore.pulsr.pl',
+    title: 'PULSR — Experimental Clothing',
+    description: 'Experimental clothing brand. Limited drops. Art you wear.',
+    url: 'https://pulsr.pl',
     siteName: 'PULSR',
     locale: 'pl_PL',
     type: 'website',

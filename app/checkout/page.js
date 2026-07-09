@@ -52,7 +52,7 @@ export default function CheckoutPage() {
             <h2 className="caption mb-24">Contact Information</h2>
             <div className="input-group">
               <label className="input-label">Full Name</label>
-              <input type="text" className="input" placeholder="[YOUR NAME]" id="checkout-name" />
+              <input type="text" className="input" placeholder="Name" id="checkout-name" />
             </div>
             <div className="input-group">
               <label className="input-label">Email</label>
@@ -84,7 +84,7 @@ export default function CheckoutPage() {
 
             {shippingMethod === 'paczkomat' && (
               <div style={{ marginTop: 24, padding: 40, border: '1px solid var(--border-subtle)', background: 'var(--black-card)', textAlign: 'center' }}>
-                <p className="caption mb-8">[INPOST GEOWIDGET PLACEHOLDER]</p>
+                <p className="caption mb-8">INPOST GEOWIDGET LOADING...</p>
                 <p className="text-secondary body-small">InPost parcel locker map will load here when API token is configured.</p>
               </div>
             )}
@@ -93,12 +93,12 @@ export default function CheckoutPage() {
               <div style={{ marginTop: 24 }}>
                 <div className="input-group">
                   <label className="input-label">Street & Number</label>
-                  <input type="text" className="input" placeholder="[STREET]" id="checkout-street" />
+                  <input type="text" className="input" placeholder="Street" id="checkout-street" />
                 </div>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
                   <div className="input-group">
                     <label className="input-label">City</label>
-                    <input type="text" className="input" placeholder="[CITY]" id="checkout-city" />
+                    <input type="text" className="input" placeholder="City" id="checkout-city" />
                   </div>
                   <div className="input-group">
                     <label className="input-label">Post Code</label>
@@ -112,7 +112,7 @@ export default function CheckoutPage() {
           {/* Payment CTA */}
           <div style={{ borderTop: '1px solid var(--border-subtle)', paddingTop: 32 }}>
             <p className="text-secondary body-small mb-24">
-              [STRIPE EMBEDDED CHECKOUT PLACEHOLDER] — Payment form will appear here when Stripe keys are configured.
+              Payment form will appear here when Stripe keys are configured.
             </p>
             <button className="btn btn--primary btn--full btn--lg" id="pay-btn">
               PAY {formatPrice(total + (shippingMethod === 'paczkomat' ? 12.99 : 18.99), 'PLN')}

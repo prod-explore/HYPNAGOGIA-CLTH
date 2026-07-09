@@ -20,7 +20,7 @@ export default function ArchiveGrid({ drops, title = 'Archive' }) {
                   {drop.media?.heroPoster ? (
                     <img src={drop.media.heroPoster} alt={drop.name} />
                   ) : (
-                    <div className={styles.placeholder}>[IMAGE]</div>
+                    <div className={styles.placeholder}></div>
                   )}
                   <span className={`badge ${getStatusBadgeClass(drop.status)} ${styles.badge}`}>
                     {getStatusLabel(drop.status)}

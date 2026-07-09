@@ -3,13 +3,13 @@ import { useState } from 'react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
 const faqs = [
-  { q: '[PLACEHOLDER: What is a preorder?]', a: '[PLACEHOLDER: A preorder allows you to reserve an item before it is produced. Payment is taken at the time of ordering, and the item ships on the estimated date.]' },
-  { q: '[PLACEHOLDER: When will my preorder ship?]', a: '[PLACEHOLDER: Each drop page shows the estimated shipping date. You will receive an email with tracking information once shipped.]' },
-  { q: '[PLACEHOLDER: What payment methods do you accept?]', a: '[PLACEHOLDER: We accept credit/debit cards, BLIK, and Przelewy24 — all processed securely via Stripe.]' },
-  { q: '[PLACEHOLDER: Can I cancel a preorder?]', a: '[PLACEHOLDER: You can cancel your preorder within 14 days of placing it, as per EU consumer rights.]' },
-  { q: '[PLACEHOLDER: Do you ship internationally?]', a: '[PLACEHOLDER: Currently we ship within Poland via InPost. International shipping coming soon.]' },
-  { q: '[PLACEHOLDER: What sizes do you offer?]', a: '[PLACEHOLDER: Sizes range from S to XXL. Check the size guide on each product page for measurements.]' },
-  { q: '[PLACEHOLDER: How do returns work?]', a: '[PLACEHOLDER: You have 14 days from delivery to return unused items. See our Returns page for full details.]' },
+  { q: 'What is a preorder?', a: 'A preorder allows you to reserve an item before it is produced. Payment is taken at the time of ordering, and the item ships on the estimated date.' },
+  { q: 'When will my preorder ship?', a: 'Each drop page shows the estimated shipping date. You will receive an email with tracking information once shipped.' },
+  { q: 'What payment methods do you accept?', a: 'We accept credit/debit cards, BLIK, and Przelewy24 — all processed securely via Stripe.' },
+  { q: 'Can I cancel a preorder?', a: 'You can cancel your preorder within 14 days of placing it, as per EU consumer rights, provided production hasn\'t started.' },
+  { q: 'Do you ship internationally?', a: 'Currently we ship within Poland via InPost. International shipping coming soon.' },
+  { q: 'What sizes do you offer?', a: 'Sizes range from S to XL. Check the size guide on each product page for exact measurements.' },
+  { q: 'How do returns work?', a: 'You have 14 days from delivery to return unused items. See our Returns page for full details.' },
 ];
 
 export default function FAQPage() {

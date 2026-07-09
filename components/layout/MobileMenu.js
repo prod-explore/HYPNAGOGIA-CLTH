@@ -30,9 +30,9 @@ export default function MobileMenu({ open, onClose }) {
       </nav>
 
       <div className={styles.footer}>
-        <div className={styles.socials}>
-          <a href="[PLACEHOLDER]" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a href="[PLACEHOLDER]" target="_blank" rel="noopener noreferrer">TikTok</a>
+        <div className={styles.social}>
+          <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">TikTok</a>
         </div>
         <p className={styles.email}>{process.env.NEXT_PUBLIC_STORE_EMAIL || 'hello@pulsr.pl'}</p>
       </div>

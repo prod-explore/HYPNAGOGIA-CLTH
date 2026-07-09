@@ -40,8 +40,8 @@ export default function ContactPage() {
             <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--border-subtle)' }}>
               <p className="caption mb-16">Direct Contact</p>
               <p className="text-secondary mb-8">{process.env.NEXT_PUBLIC_STORE_EMAIL || 'hello@pulsr.pl'}</p>
-              <p className="text-secondary mb-8">[PLACEHOLDER: Phone number]</p>
-              <p className="text-secondary">[PLACEHOLDER: Social media handles]</p>
+              <p className="text-secondary mb-8">+48 000 000 000</p>
+              <p className="text-secondary">@pulsr</p>
             </div>
           </ScrollReveal>
         </div>

@@ -25,7 +25,7 @@ export default function LookbookPage() {
                   justifyContent: 'center',
                   gridColumn: i === 0 ? '1 / -1' : 'auto',
                 }}>
-                  <p className="caption">[LOOKBOOK IMAGE {n} PLACEHOLDER]</p>
+                  <p className="caption"></p>
                 </div>
               </ScrollReveal>
             ))}

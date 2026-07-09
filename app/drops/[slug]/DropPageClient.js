@@ -52,7 +52,6 @@ export default function DropPageClient({ drop, otherDrops }) {
             <img src={drop.media.heroPoster} alt={drop.name} className={styles.heroMedia} />
           ) : (
             <div className={styles.heroPlaceholder}>
-              <p>[HERO MEDIA PLACEHOLDER]</p>
               <p className="caption">/media/drops/{drop.slug}/hero.mp4</p>
             </div>
           )}
@@ -123,7 +122,7 @@ export default function DropPageClient({ drop, otherDrops }) {
               {drop.media?.heroPoster ? (
                 <img src={drop.media.heroPoster} alt={drop.name} />
               ) : (
-                <div className={styles.purchaseImgPlaceholder}>[PRODUCT IMAGE]</div>
+                <div className={styles.purchaseImgPlaceholder}></div>
               )}
             </div>
 
@@ -194,7 +193,7 @@ export default function DropPageClient({ drop, otherDrops }) {
                       {d.media?.heroPoster ? (
                         <img src={d.media.heroPoster} alt={d.name} />
                       ) : (
-                        <div className={styles.heroPlaceholder} style={{ aspectRatio: '3/4' }}>[IMAGE]</div>
+                        <div className={styles.heroPlaceholder} style={{ aspectRatio: '3/4' }}></div>
                       )}
                     </div>
                     <p className={styles.relatedName}>{d.name}</p>

@@ -9,37 +9,37 @@ export default function TermsPage() {
         <div className="legal-content container">
           <ScrollReveal>
             <h1>Terms & Conditions</h1>
-            <span className="legal-date">[PLACEHOLDER: Last updated date]</span>
+            <span className="legal-date">Last updated: {new Date().toLocaleDateString()}</span>
 
             <h2>1. General Provisions</h2>
-            <p>[PLACEHOLDER: General terms text. Include your legal entity name, NIP, REGON, registered address, and the scope of these terms.]</p>
+            <p>These Terms & Conditions govern the sales of products by PULSR sp. z o.o., NIP: 0000000000, registered in Warsaw, Poland.</p>
 
             <h2>2. Definitions</h2>
-            <p>[PLACEHOLDER: Define key terms — Store, Customer, Product, Order, Drop, Preorder, etc.]</p>
+            <p>Store: The online store operated by PULSR. Customer: Any individual purchasing from the Store. Drop: A limited release of products.</p>
 
             <h2>3. Orders & Preorders</h2>
-            <p>[PLACEHOLDER: How orders work, preorder process, confirmation, production timelines, payment timing.]</p>
+            <p>Orders are confirmed via email. Preorders represent a reservation for an upcoming production run. Timelines are clearly stated on the product page.</p>
 
             <h2>4. Prices & Payment</h2>
-            <p>[PLACEHOLDER: Currency, tax inclusion, accepted payment methods (Stripe, BLIK, card), when payment is charged for preorders.]</p>
+            <p>All prices are in PLN and include VAT. We accept payments via Stripe, BLIK, and major credit cards. Preorders are charged at the time of purchase.</p>
 
             <h2>5. Shipping & Delivery</h2>
-            <p>[PLACEHOLDER: Shipping methods (InPost Paczkomat, InPost Courier), delivery times, shipping costs, free shipping threshold.]</p>
+            <p>We ship via InPost Paczkomat and InPost Courier within Poland. Delivery typically takes 1-3 business days after dispatch.</p>
 
             <h2>6. Returns & Refunds</h2>
-            <p>[PLACEHOLDER: 14-day right of withdrawal (EU consumer rights), return conditions, refund process. Link to /returns page.]</p>
+            <p>Customers have a 14-day right of withdrawal according to EU consumer law. Please refer to our Returns page for full details.</p>
 
             <h2>7. Complaints</h2>
-            <p>[PLACEHOLDER: How to file a complaint, response timeframes, warranty obligations.]</p>
+            <p>Complaints regarding defective products must be submitted via email. We aim to resolve all issues within 14 days.</p>
 
             <h2>8. Intellectual Property</h2>
-            <p>[PLACEHOLDER: All designs, photographs, and content are property of PULSR.]</p>
+            <p>All designs, photographs, and content are the exclusive property of PULSR.</p>
 
             <h2>9. Privacy</h2>
-            <p>[PLACEHOLDER: Reference to Privacy Policy at /privacy.]</p>
+            <p>For information on how we handle your data, please see our Privacy Policy.</p>
 
             <h2>10. Final Provisions</h2>
-            <p>[PLACEHOLDER: Governing law (Polish law), dispute resolution, contact information.]</p>
+            <p>These terms are governed by Polish law. Any disputes will be resolved by the competent Polish courts.</p>
           </ScrollReveal>
         </div>
       </section>

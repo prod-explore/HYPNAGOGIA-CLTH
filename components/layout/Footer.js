@@ -33,10 +33,11 @@ export default function Footer() {
 
           {/* Connect Column */}
           <div className={styles.col}>
-            <h4 className={styles.colTitle}>Connect</h4>
-            <a href="[PLACEHOLDER]" target="_blank" rel="noopener noreferrer" className={styles.link}>Instagram</a>
-            <a href="[PLACEHOLDER]" target="_blank" rel="noopener noreferrer" className={styles.link}>TikTok</a>
-            <a href="mailto:hello@pulsr.pl" className={styles.link}>Email</a>
+            <div className={styles.socialColumn}>
+            <h3>Socials</h3>
+            <a href="#" target="_blank" rel="noopener noreferrer" className={styles.link}>Instagram</a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className={styles.link}>TikTok</a>
+          </div>  <a href="mailto:hello@pulsr.pl" className={styles.link}>Email</a>
           </div>
         </div>
 
@@ -55,15 +56,8 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className={styles.bottom}>
-          <p className={styles.copyright}>© {new Date().getFullYear()} PULSR. [PLACEHOLDER: Legal Entity Name]</p>
-          <div className={styles.badges}>
-            <span className={styles.badge}>Stripe</span>
-            <span className={styles.badge}>Visa</span>
-            <span className={styles.badge}>Mastercard</span>
-            <span className={styles.badge}>BLIK</span>
-            <span className={styles.badge}>InPost</span>
-          </div>
+        <div className={styles.bottomBar}>
+          <p className={styles.copyright}>© {new Date().getFullYear()} PULSR.</p>
         </div>
       </div>
     </footer>

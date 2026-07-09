@@ -12,7 +12,7 @@ export default function CheckoutSuccess() {
           <p className="body-large text-secondary mb-32">
             Your order has been confirmed. You will receive a confirmation email shortly.
           </p>
-          <p className="caption mb-48">[PLACEHOLDER: Order number and tracking details will appear here]</p>
+          <p className="caption mb-48">Order number and tracking details will appear here</p>
           <Link href="/archive" className="btn btn--outline">Continue Browsing</Link>
         </ScrollReveal>
       </div>
