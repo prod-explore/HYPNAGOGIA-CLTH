@@ -1,4 +1,4 @@
--- Schemat bazy danych dla HYPNAGOGIA-CLTH
+-- Schemat bazy danych dla PULSR-CLTH
 -- Wykorzystujemy potęgę PostgreSQL (kolumny JSONB) do elastycznego przechowywania danych
 -- takich jak zagnieżdżone ceny wielowalutowe, kolory i media,
 -- co jest standardem w nowoczesnych aplikacjach e-commerce (np. Stripe, Shopify).

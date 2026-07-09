@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
-export const metadata = { title: 'Order Confirmed — HYPNAGOGIA' };
+export const metadata = { title: 'Order Confirmed — PULSR' };
 
 export default function CheckoutSuccess() {
   return (

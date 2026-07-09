@@ -1,6 +1,6 @@
 import styles from './Marquee.module.css';
 
-export default function Marquee({ text = 'HYPNAGOGIA • DROP 001 • PREORDER OPEN • LIMITED EDITION • ' }) {
+export default function Marquee({ text = 'PULSR • DROP 001 • PREORDER OPEN • LIMITED EDITION • ' }) {
   const repeated = text.repeat(8);
   return (
     <div className={styles.container}>

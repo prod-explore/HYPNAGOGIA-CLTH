@@ -3,8 +3,8 @@ import ProductCard from '@/components/shop/ProductCard';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
 export const metadata = {
-  title: 'All Products — HYPNAGOGIA',
-  description: 'Browse all drops from HYPNAGOGIA. Limited edition experimental clothing.',
+  title: 'All Products — PULSR',
+  description: 'Browse all drops from PULSR. Limited edition experimental clothing.',
 };
 
 export default async function ArchivePage() {

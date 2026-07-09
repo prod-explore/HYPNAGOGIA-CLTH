@@ -1,6 +1,6 @@
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
-export const metadata = { title: 'Contact — HYPNAGOGIA' };
+export const metadata = { title: 'Contact — PULSR' };
 
 export default function ContactPage() {
   return (
@@ -39,7 +39,7 @@ export default function ContactPage() {
           <ScrollReveal delay={0.2}>
             <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--border-subtle)' }}>
               <p className="caption mb-16">Direct Contact</p>
-              <p className="text-secondary mb-8">{process.env.NEXT_PUBLIC_STORE_EMAIL || 'hello@hypnagogia.pl'}</p>
+              <p className="text-secondary mb-8">{process.env.NEXT_PUBLIC_STORE_EMAIL || 'hello@pulsr.pl'}</p>
               <p className="text-secondary mb-8">[PLACEHOLDER: Phone number]</p>
               <p className="text-secondary">[PLACEHOLDER: Social media handles]</p>
             </div>

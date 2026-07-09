@@ -1,6 +1,6 @@
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
-export const metadata = { title: 'Returns & Refunds — HYPNAGOGIA' };
+export const metadata = { title: 'Returns & Refunds — PULSR' };
 
 export default function ReturnsPage() {
   return (

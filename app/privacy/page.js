@@ -1,6 +1,6 @@
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
-export const metadata = { title: 'Privacy Policy — HYPNAGOGIA' };
+export const metadata = { title: 'Privacy Policy — PULSR' };
 
 export default function PrivacyPage() {
   return (

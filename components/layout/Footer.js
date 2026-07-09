@@ -36,7 +36,7 @@ export default function Footer() {
             <h4 className={styles.colTitle}>Connect</h4>
             <a href="[PLACEHOLDER]" target="_blank" rel="noopener noreferrer" className={styles.link}>Instagram</a>
             <a href="[PLACEHOLDER]" target="_blank" rel="noopener noreferrer" className={styles.link}>TikTok</a>
-            <a href="mailto:hello@hypnagogia.pl" className={styles.link}>Email</a>
+            <a href="mailto:hello@pulsr.pl" className={styles.link}>Email</a>
           </div>
         </div>
 
@@ -56,7 +56,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className={styles.bottom}>
-          <p className={styles.copyright}>© {new Date().getFullYear()} HYPNAGOGIA. [PLACEHOLDER: Legal Entity Name]</p>
+          <p className={styles.copyright}>© {new Date().getFullYear()} PULSR. [PLACEHOLDER: Legal Entity Name]</p>
           <div className={styles.badges}>
             <span className={styles.badge}>Stripe</span>
             <span className={styles.badge}>Visa</span>

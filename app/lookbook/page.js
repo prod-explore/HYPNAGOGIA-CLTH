@@ -1,6 +1,6 @@
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
-export const metadata = { title: 'Lookbook — HYPNAGOGIA' };
+export const metadata = { title: 'Lookbook — PULSR' };
 
 export default function LookbookPage() {
   const placeholders = Array.from({ length: 6 }, (_, i) => i + 1);

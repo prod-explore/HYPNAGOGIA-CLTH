@@ -15,7 +15,7 @@ export default async function Home() {
       <CurrentDrop drop={featured} />
 
       {/* Marquee */}
-      <Marquee text={`HYPNAGOGIA • ${featured?.name || 'DROP 001'} • ${featured?.status === 'preorder' ? 'PREORDER OPEN' : 'EXPLORE'} • LIMITED EDITION • `} />
+      <Marquee text={`PULSR • ${featured?.name || 'DROP 001'} • ${featured?.status === 'preorder' ? 'PREORDER OPEN' : 'EXPLORE'} • LIMITED EDITION • `} />
 
       {/* Archive Grid */}
       <ArchiveGrid drops={allDrops} title="All Drops" />

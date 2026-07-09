@@ -1,6 +1,6 @@
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
-export const metadata = { title: 'About — HYPNAGOGIA' };
+export const metadata = { title: 'About — PULSR' };
 
 export default function AboutPage() {
   return (
@@ -13,7 +13,7 @@ export default function AboutPage() {
         <div className="overlay" />
         <div style={{ position: 'relative', zIndex: 2, textAlign: 'center', padding: '0 var(--container-padding)' }}>
           <ScrollReveal>
-            <h1 className="display-large">HYPNAGOGIA</h1>
+            <h1 className="display-large">PULSR</h1>
           </ScrollReveal>
         </div>
       </section>
@@ -24,7 +24,7 @@ export default function AboutPage() {
           <ScrollReveal>
             <span className="caption mb-24" style={{ display: 'block' }}>The Brand</span>
             <p className="body-large text-secondary" style={{ lineHeight: 2 }}>
-              [PLACEHOLDER: Your brand story. Who are you? What does HYPNAGOGIA mean to you? What drives the creative process? What makes your clothing different? What is the philosophy behind each piece?]
+              [PLACEHOLDER: Your brand story. Who are you? What does PULSR mean to you? What drives the creative process? What makes your clothing different? What is the philosophy behind each piece?]
             </p>
           </ScrollReveal>
 
@@ -36,7 +36,7 @@ export default function AboutPage() {
 
           <ScrollReveal delay={0.2}>
             <p className="body-large text-secondary" style={{ lineHeight: 2 }}>
-              [PLACEHOLDER: Continue the story. Talk about materials, craftsmanship, the experimental nature of your work. What does &ldquo;hypnagogia&rdquo; — the state between waking and sleep — represent in your designs?]
+              [PLACEHOLDER: Continue the story. Talk about materials, craftsmanship, the experimental nature of your work. What does &ldquo;pulsr&rdquo; — the state between waking and sleep — represent in your designs?]
             </p>
           </ScrollReveal>
         </div>

@@ -48,7 +48,7 @@ export default function CustomCursor() {
       transition: 'opacity 0.2s ease-out', // Smooth fade when entering/leaving window
     }}>
       <video
-        src="/media/hypnagogia-cursor.webm"
+        src="/media/pulsr-cursor.webm"
         autoPlay loop muted playsInline
         style={{ width: '100%', height: '100%', objectFit: 'contain', pointerEvents: 'none' }}
       />

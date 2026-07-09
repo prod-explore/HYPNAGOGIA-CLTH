@@ -1,6 +1,6 @@
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
-export const metadata = { title: 'Size Guide — HYPNAGOGIA' };
+export const metadata = { title: 'Size Guide — PULSR' };
 
 export default function SizeGuidePage() {
   return (

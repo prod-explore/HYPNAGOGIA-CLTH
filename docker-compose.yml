@@ -1,36 +1,36 @@
 services:
-  hypnagogia:
+  pulsr:
     build: .
-    container_name: hypnagogia
+    container_name: pulsr
     restart: unless-stopped
     expose:
       - "3000"
     env_file:
       - .env
     networks:
-      - hypnagogia-clth-network
+      - pulsr-clth-network
     depends_on:
       - db
 
   db:
     image: postgres:15-alpine
-    container_name: hypnagogia_db
+    container_name: pulsr_db
     restart: unless-stopped
     environment:
       POSTGRES_USER: ${DB_USER:-postgres}
       POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
-      POSTGRES_DB: ${DB_NAME:-hypnagogia}
+      POSTGRES_DB: ${DB_NAME:-pulsr}
     ports:
       - "5432:5432"
     volumes:
-      - hypnagogia_pgdata:/var/lib/postgresql/data
+      - pulsr_pgdata:/var/lib/postgresql/data
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
     networks:
-      - hypnagogia-clth-network
+      - pulsr-clth-network
 
 networks:
-  hypnagogia-clth-network:
+  pulsr-clth-network:
     external: true
 
 volumes:
-  hypnagogia_pgdata:
+  pulsr_pgdata:

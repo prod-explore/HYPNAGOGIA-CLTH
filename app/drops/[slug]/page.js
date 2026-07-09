@@ -10,9 +10,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const drop = await getDropBySlug(slug);
-  if (!drop) return { title: 'Not Found — HYPNAGOGIA' };
+  if (!drop) return { title: 'Not Found — PULSR' };
   return {
-    title: `${drop.name} — HYPNAGOGIA`,
+    title: `${drop.name} — PULSR`,
     description: drop.description,
   };
 }

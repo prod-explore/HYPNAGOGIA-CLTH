@@ -1,6 +1,6 @@
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
-export const metadata = { title: 'Terms & Conditions — HYPNAGOGIA' };
+export const metadata = { title: 'Terms & Conditions — PULSR' };
 
 export default function TermsPage() {
   return (
@@ -33,7 +33,7 @@ export default function TermsPage() {
             <p>[PLACEHOLDER: How to file a complaint, response timeframes, warranty obligations.]</p>
 
             <h2>8. Intellectual Property</h2>
-            <p>[PLACEHOLDER: All designs, photographs, and content are property of HYPNAGOGIA.]</p>
+            <p>[PLACEHOLDER: All designs, photographs, and content are property of PULSR.]</p>
 
             <h2>9. Privacy</h2>
             <p>[PLACEHOLDER: Reference to Privacy Policy at /privacy.]</p>

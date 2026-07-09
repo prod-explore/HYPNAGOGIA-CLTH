@@ -37,7 +37,7 @@ export default function Header() {
         <div className={styles.inner}>
           {/* Logo */}
           <Link href="/" className={styles.logo} id="header-logo">
-            HYPNAGOGIA
+            PULSR
           </Link>
 
           {/* Desktop Nav */}

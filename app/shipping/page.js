@@ -1,6 +1,6 @@
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
-export const metadata = { title: 'Shipping — HYPNAGOGIA' };
+export const metadata = { title: 'Shipping — PULSR' };
 
 export default function ShippingPage() {
   return (
