@@ -50,7 +50,7 @@ export default function CustomCursor() {
       <video
         src="/media/hypnagogia-cursor.webm"
         autoPlay loop muted playsInline
-        style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+        style={{ width: '100%', height: '100%', objectFit: 'contain', pointerEvents: 'none' }}
       />
     </div>
   );

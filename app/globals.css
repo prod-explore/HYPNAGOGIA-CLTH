@@ -22,8 +22,8 @@
   --white: #ffffff;
 
   /* Typography */
-  --font-heading: 'Space Grotesk', system-ui, sans-serif;
-  --font-body: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
   /* Sizing */
   --header-height: 72px;
@@ -169,14 +169,14 @@ h1, h2, h3, h4, h5, h6 {
 .display-massive {
   font-size: clamp(3rem, 12vw, 15rem);
   font-weight: 700;
-  line-height: 0.9;
+  line-height: 1.1;
   letter-spacing: -0.04em;
 }
 
 .display-large {
   font-size: clamp(2.5rem, 8vw, 8rem);
   font-weight: 700;
-  line-height: 0.95;
+  line-height: 1.1;
   letter-spacing: -0.03em;
 }
 

@@ -42,9 +42,7 @@ export default function Header() {
 
           {/* Desktop Nav */}
           <nav className={styles.nav} id="desktop-nav">
-            <Link href="/drops/obsidian-hoodie" className={styles.navLink}>Drop</Link>
-            <Link href="/archive" className={styles.navLink}>Archive</Link>
-            <Link href="/about" className={styles.navLink}>About</Link>
+            <Link href="/drops/jaguar-jersey" className={styles.navLink}>Drop</Link>
             <Link href="/contact" className={styles.navLink}>Contact</Link>
           </nav>
 

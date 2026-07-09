@@ -1,25 +1,25 @@
 [
   {
     "id": "drop-001",
-    "slug": "obsidian-hoodie",
-    "name": "OBSIDIAN HOODIE",
-    "tagline": "HEAVYWEIGHT 500GSM / ABSTRACT GEOMETRY",
-    "description": "The Obsidian Hoodie is constructed from custom-milled 500GSM French Terry cotton. It features an oversized, dropped-shoulder silhouette with a subtle abstract geometric print on the back that reflects light dynamically. Designed for layering and structured drape.",
-    "story": "Inspired by brutalist architecture and the sharp, unforgiving lines of urban landscapes, the Obsidian project was born out of a desire to create a garment that feels both like armor and a second skin.",
+    "slug": "jaguar-jersey",
+    "name": "JAGUAR JERSEY",
+    "tagline": "FOOTBALL DROP",
+    "description": "Y2K sport aesthetic. Retro football jersey with a dark jaguar animal print. Boxy fit. Limited edition run.",
+    "story": "Woven with raw energy.",
     "price": {
-      "PLN": 349.00,
-      "EUR": 80.00,
-      "USD": 85.00
+      "PLN": 280.00,
+      "EUR": 65.00,
+      "USD": 70.00
     },
-    "status": "preorder",
-    "preorderDeadline": "2026-08-01T23:59:59Z",
-    "estimatedShipDate": "2026-09-15",
-    "category": "hoodie",
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "status": "soldout",
+    "preorderDeadline": null,
+    "estimatedShipDate": null,
+    "category": "jersey",
+    "sizes": ["S", "M", "L", "XL"],
     "colors": [
       {
-        "name": "Void Black",
-        "hex": "#0a0a0a",
+        "name": "Jaguar",
+        "hex": "#1c1c1c",
         "images": ["/media/drops/drop-001/gallery-1.png"]
       }
     ],
@@ -32,35 +32,34 @@
       "behindTheScenes": []
     },
     "sizeGuide": {
-      "S":  { "chest": "58cm", "length": "68cm", "sleeve": "61cm" },
-      "M":  { "chest": "60cm", "length": "70cm", "sleeve": "62cm" },
-      "L":  { "chest": "62cm", "length": "72cm", "sleeve": "63cm" },
-      "XL": { "chest": "64cm", "length": "74cm", "sleeve": "64cm" },
-      "XXL": { "chest": "66cm", "length": "76cm", "sleeve": "65cm" }
+      "S":  { "chest": "56cm", "length": "68cm", "sleeve": "42cm" },
+      "M":  { "chest": "58cm", "length": "70cm", "sleeve": "43cm" },
+      "L":  { "chest": "60cm", "length": "72cm", "sleeve": "44cm" },
+      "XL": { "chest": "62cm", "length": "74cm", "sleeve": "45cm" }
     },
     "featured": true
   },
   {
     "id": "drop-002",
-    "slug": "tactical-cargos-v1",
-    "name": "TACTICAL CARGOS V1",
-    "tagline": "WIDE FIT / WATER REPELLENT",
-    "description": "Washed dark grey wide-fit cargo pants featuring tactical asymmetrical pockets, adjustable hems, and an articulated knee structure. Made from a durable cotton-nylon blend with DWR coating.",
-    "story": "Function dictates form. The V1 Cargos were tested through 6 months of daily wear across varying climates to ensure the pocket placement is completely intuitive while maintaining a sleek silhouette.",
+    "slug": "gr-blue-zip",
+    "name": "GR BLUE ZIP",
+    "tagline": "GR CAPSULE",
+    "description": "Heavyweight royal blue zip-up hoodie. Dropped shoulders, cropped body. 500GSM.",
+    "story": "GR CAPSULE 01.",
     "price": {
-      "PLN": 399.00,
-      "EUR": 92.00,
-      "USD": 99.00
+      "PLN": 450.00,
+      "EUR": 105.00,
+      "USD": 115.00
     },
-    "status": "available",
+    "status": "soldout",
     "preorderDeadline": null,
     "estimatedShipDate": null,
-    "category": "pants",
-    "sizes": ["S", "M", "L", "XL"],
+    "category": "hoodie",
+    "sizes": ["S", "M", "L"],
     "colors": [
       {
-        "name": "Washed Ash",
-        "hex": "#3d3d3d",
+        "name": "Royal Blue",
+        "hex": "#002366",
         "images": ["/media/drops/drop-002/gallery-1.png"]
       }
     ],
@@ -73,34 +72,33 @@
       "behindTheScenes": []
     },
     "sizeGuide": {
-      "S":  { "waist": "38cm", "length": "104cm", "legOpening": "22cm" },
-      "M":  { "waist": "40cm", "length": "106cm", "legOpening": "23cm" },
-      "L":  { "waist": "42cm", "length": "108cm", "legOpening": "24cm" },
-      "XL": { "waist": "44cm", "length": "110cm", "legOpening": "25cm" }
+      "S":  { "chest": "58cm", "length": "65cm", "sleeve": "61cm" },
+      "M":  { "chest": "60cm", "length": "67cm", "sleeve": "62cm" },
+      "L":  { "chest": "62cm", "length": "69cm", "sleeve": "63cm" }
     },
     "featured": false
   },
   {
     "id": "drop-003",
-    "slug": "apex-technical-jacket",
-    "name": "APEX TECHNICAL JACKET",
-    "tagline": "3-LAYER SHELL / SILVER HARDWARE",
-    "description": "The Apex Jacket is a fully seam-taped, waterproof outer layer. It features a high-neck storm hood, custom silver hardware, and a cropped, boxy fit perfect for modern streetwear aesthetics.",
-    "story": "Designed for the unpredictable. We wanted a piece that provides absolute protection without compromising on the avant-garde aesthetic.",
+    "slug": "gr-doll-ls",
+    "name": "GR DOLL",
+    "tagline": "GR CAPSULE",
+    "description": "White streetwear longsleeve t-shirt with a dark, abstract gothic graphic in the center.",
+    "story": "GR CAPSULE 01.",
     "price": {
-      "PLN": 549.00,
-      "EUR": 125.00,
-      "USD": 135.00
+      "PLN": 290.00,
+      "EUR": 65.00,
+      "USD": 75.00
     },
     "status": "soldout",
     "preorderDeadline": null,
     "estimatedShipDate": null,
-    "category": "jacket",
+    "category": "longsleeve",
     "sizes": ["M", "L", "XL"],
     "colors": [
       {
-        "name": "Pitch Black",
-        "hex": "#1a1a1a",
+        "name": "White",
+        "hex": "#ffffff",
         "images": ["/media/drops/drop-003/gallery-1.png"]
       }
     ],
