@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import { getStatusLabel, getStatusBadgeClass, formatPrice } from '@/lib/products';
+import { getStatusLabel, getStatusBadgeClass, formatPrice } from '@/lib/formatters';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import styles from './CurrentDrop.module.css';
 

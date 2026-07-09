@@ -1,7 +1,7 @@
 'use client';
 
 import { useCart, getCartTotal, getCartCount } from '@/lib/cart';
-import { formatPrice } from '@/lib/products';
+import { formatPrice } from '@/lib/formatters';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useState } from 'react';
 

@@ -1,125 +1,121 @@
 [
   {
     "id": "drop-001",
-    "slug": "drop-001-placeholder",
-    "name": "[DROP NAME]",
-    "tagline": "[SHORT TAGLINE FOR THIS PIECE]",
-    "description": "[FULL PRODUCT DESCRIPTION — materials, fit, weight, inspiration. Tell the story of this garment.]",
-    "story": "[THE STORY BEHIND THIS DROP — What inspired it? What does it represent? What was the creative process?]",
+    "slug": "obsidian-hoodie",
+    "name": "OBSIDIAN HOODIE",
+    "tagline": "HEAVYWEIGHT 500GSM / ABSTRACT GEOMETRY",
+    "description": "The Obsidian Hoodie is constructed from custom-milled 500GSM French Terry cotton. It features an oversized, dropped-shoulder silhouette with a subtle abstract geometric print on the back that reflects light dynamically. Designed for layering and structured drape.",
+    "story": "Inspired by brutalist architecture and the sharp, unforgiving lines of urban landscapes, the Obsidian project was born out of a desire to create a garment that feels both like armor and a second skin.",
     "price": {
-      "PLN": 299.00,
-      "EUR": 69.00,
-      "USD": 75.00
+      "PLN": 349.00,
+      "EUR": 80.00,
+      "USD": 85.00
     },
     "status": "preorder",
     "preorderDeadline": "2026-08-01T23:59:59Z",
     "estimatedShipDate": "2026-09-15",
-    "category": "[CATEGORY — e.g. heavyweight-tee, hoodie, jacket, pants, accessory]",
+    "category": "hoodie",
     "sizes": ["S", "M", "L", "XL", "XXL"],
     "colors": [
       {
-        "name": "[COLOR NAME]",
-        "hex": "#000000",
-        "images": ["hero.jpg", "gallery-1.jpg", "gallery-2.jpg", "gallery-3.jpg"]
+        "name": "Void Black",
+        "hex": "#0a0a0a",
+        "images": ["/media/drops/drop-001/gallery-1.png"]
       }
     ],
     "media": {
-      "heroVideo": "/media/drops/drop-001/hero.mp4",
-      "heroPoster": "/media/drops/drop-001/hero-poster.jpg",
+      "heroVideo": null,
+      "heroPoster": "/media/hero.png",
       "gallery": [
-        "/media/drops/drop-001/gallery-1.jpg",
-        "/media/drops/drop-001/gallery-2.jpg",
-        "/media/drops/drop-001/gallery-3.jpg"
+        "/media/drops/drop-001/gallery-1.png"
       ],
-      "behindTheScenes": [
-        "/media/drops/drop-001/bts-1.jpg"
-      ]
+      "behindTheScenes": []
     },
     "sizeGuide": {
-      "S":  { "chest": "?", "length": "?", "sleeve": "?" },
-      "M":  { "chest": "?", "length": "?", "sleeve": "?" },
-      "L":  { "chest": "?", "length": "?", "sleeve": "?" },
-      "XL": { "chest": "?", "length": "?", "sleeve": "?" },
-      "XXL": { "chest": "?", "length": "?", "sleeve": "?" }
+      "S":  { "chest": "58cm", "length": "68cm", "sleeve": "61cm" },
+      "M":  { "chest": "60cm", "length": "70cm", "sleeve": "62cm" },
+      "L":  { "chest": "62cm", "length": "72cm", "sleeve": "63cm" },
+      "XL": { "chest": "64cm", "length": "74cm", "sleeve": "64cm" },
+      "XXL": { "chest": "66cm", "length": "76cm", "sleeve": "65cm" }
     },
     "featured": true
   },
   {
     "id": "drop-002",
-    "slug": "drop-002-placeholder",
-    "name": "[DROP NAME]",
-    "tagline": "[SHORT TAGLINE]",
-    "description": "[FULL PRODUCT DESCRIPTION]",
-    "story": "[THE STORY BEHIND THIS DROP]",
+    "slug": "tactical-cargos-v1",
+    "name": "TACTICAL CARGOS V1",
+    "tagline": "WIDE FIT / WATER REPELLENT",
+    "description": "Washed dark grey wide-fit cargo pants featuring tactical asymmetrical pockets, adjustable hems, and an articulated knee structure. Made from a durable cotton-nylon blend with DWR coating.",
+    "story": "Function dictates form. The V1 Cargos were tested through 6 months of daily wear across varying climates to ensure the pocket placement is completely intuitive while maintaining a sleek silhouette.",
     "price": {
       "PLN": 399.00,
       "EUR": 92.00,
       "USD": 99.00
     },
-    "status": "coming",
+    "status": "available",
     "preorderDeadline": null,
     "estimatedShipDate": null,
-    "category": "[CATEGORY]",
+    "category": "pants",
     "sizes": ["S", "M", "L", "XL"],
     "colors": [
       {
-        "name": "[COLOR NAME]",
-        "hex": "#ffffff",
-        "images": ["hero.jpg", "gallery-1.jpg"]
+        "name": "Washed Ash",
+        "hex": "#3d3d3d",
+        "images": ["/media/drops/drop-002/gallery-1.png"]
       }
     ],
     "media": {
       "heroVideo": null,
-      "heroPoster": "/media/drops/drop-002/hero-poster.jpg",
+      "heroPoster": "/media/drops/drop-002/gallery-1.png",
       "gallery": [
-        "/media/drops/drop-002/gallery-1.jpg"
+        "/media/drops/drop-002/gallery-1.png"
       ],
       "behindTheScenes": []
     },
     "sizeGuide": {
-      "S":  { "chest": "?", "length": "?", "sleeve": "?" },
-      "M":  { "chest": "?", "length": "?", "sleeve": "?" },
-      "L":  { "chest": "?", "length": "?", "sleeve": "?" },
-      "XL": { "chest": "?", "length": "?", "sleeve": "?" }
+      "S":  { "waist": "38cm", "length": "104cm", "legOpening": "22cm" },
+      "M":  { "waist": "40cm", "length": "106cm", "legOpening": "23cm" },
+      "L":  { "waist": "42cm", "length": "108cm", "legOpening": "24cm" },
+      "XL": { "waist": "44cm", "length": "110cm", "legOpening": "25cm" }
     },
     "featured": false
   },
   {
     "id": "drop-003",
-    "slug": "drop-003-placeholder",
-    "name": "[DROP NAME]",
-    "tagline": "[SHORT TAGLINE]",
-    "description": "[FULL PRODUCT DESCRIPTION]",
-    "story": "[THE STORY BEHIND THIS DROP]",
+    "slug": "apex-technical-jacket",
+    "name": "APEX TECHNICAL JACKET",
+    "tagline": "3-LAYER SHELL / SILVER HARDWARE",
+    "description": "The Apex Jacket is a fully seam-taped, waterproof outer layer. It features a high-neck storm hood, custom silver hardware, and a cropped, boxy fit perfect for modern streetwear aesthetics.",
+    "story": "Designed for the unpredictable. We wanted a piece that provides absolute protection without compromising on the avant-garde aesthetic.",
     "price": {
-      "PLN": 249.00,
-      "EUR": 58.00,
-      "USD": 62.00
+      "PLN": 549.00,
+      "EUR": 125.00,
+      "USD": 135.00
     },
     "status": "soldout",
     "preorderDeadline": null,
     "estimatedShipDate": null,
-    "category": "[CATEGORY]",
+    "category": "jacket",
     "sizes": ["M", "L", "XL"],
     "colors": [
       {
-        "name": "[COLOR NAME]",
+        "name": "Pitch Black",
         "hex": "#1a1a1a",
-        "images": ["hero.jpg"]
+        "images": ["/media/drops/drop-003/gallery-1.png"]
       }
     ],
     "media": {
       "heroVideo": null,
-      "heroPoster": "/media/drops/drop-003/hero-poster.jpg",
+      "heroPoster": "/media/drops/drop-003/gallery-1.png",
       "gallery": [
-        "/media/drops/drop-003/gallery-1.jpg"
+        "/media/drops/drop-003/gallery-1.png"
       ],
       "behindTheScenes": []
     },
     "sizeGuide": {
-      "M":  { "chest": "?", "length": "?", "sleeve": "?" },
-      "L":  { "chest": "?", "length": "?", "sleeve": "?" },
-      "XL": { "chest": "?", "length": "?", "sleeve": "?" }
+      "M":  { "chest": "62cm", "length": "65cm", "sleeve": "64cm" },
+      "L":  { "chest": "64cm", "length": "67cm", "sleeve": "65cm" },
+      "XL": { "chest": "66cm", "length": "69cm", "sleeve": "66cm" }
     },
     "featured": false
   }

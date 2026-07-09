@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useCart, useCartDispatch, getCartTotal, getCartCount } from '@/lib/cart';
-import { formatPrice } from '@/lib/products';
+import { formatPrice } from '@/lib/formatters';
 import styles from './CartDrawer.module.css';
 
 export default function CartDrawer({ open, onClose }) {

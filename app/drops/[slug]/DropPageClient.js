@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { useCartDispatch } from '@/lib/cart';
-import { getDropBySlug, getAllDrops, formatPrice, getStatusLabel, getStatusBadgeClass } from '@/lib/products';
+import { formatPrice, getStatusLabel, getStatusBadgeClass } from '@/lib/formatters';
 import SizeSelector from '@/components/shop/SizeSelector';
 import ColorSelector from '@/components/shop/ColorSelector';
 import ScrollReveal from '@/components/ui/ScrollReveal';

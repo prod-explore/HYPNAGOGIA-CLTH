@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getStatusLabel, getStatusBadgeClass, formatPrice } from '@/lib/products';
+import { getStatusLabel, getStatusBadgeClass, formatPrice } from '@/lib/formatters';
 import styles from './ProductCard.module.css';
 
 export default function ProductCard({ drop }) {
